@@ -10,8 +10,8 @@ def getThreadNum(url):
     return url.split("/")[-4], url.split("/")[-3], url.split("/")[-1].replace(".html", "")
 
 parser = argparse.ArgumentParser(description='Files downloader from 2ch.hk by OlegWock v0.1')
-parser.add_argument(action='store', dest='url', help='Ссылка на тред', default="", nargs='?')
-parser.add_argument('-v', action='store_true', dest='v', help='Отключить вывод')
+parser.add_argument(action='store', dest='url', help='Thread url', default="", nargs='?')
+parser.add_argument('-v', action='store_true', dest='v', help='Disable output')
 args = parser.parse_args()
 url = args.url
 
