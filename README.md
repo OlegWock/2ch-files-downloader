@@ -2,7 +2,8 @@
 
 Download all files from thread at 2ch.hk
 
-```Usage: main.py [-h] [-v] [url]
+```
+Usage: main.py [-h] [-v] [url]
 
 positional arguments:
   url         Thread url
